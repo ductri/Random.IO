@@ -18,7 +18,7 @@
             android:id="@+id/matchView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/background4"
+            android:background="@mipmap/background"
             />
 
     </ScrollView>

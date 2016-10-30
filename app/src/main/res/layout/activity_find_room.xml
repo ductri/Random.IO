@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_find_room"
     android:layout_width="match_parent"
-    android:background="@mipmap/background"
+    android:background="@mipmap/background4"
     android:layout_height="match_parent"
     tools:context="hackathon_mobile_2016.randomio.activities.FindRoomActivity"
     android:orientation="vertical">
@@ -16,7 +16,8 @@
 
         <ImageView
             android:id="@+id/backBtn"
-            android:background="@mipmap/back_btn"
+            android:layout_marginStart="10dp"
+            android:background="@mipmap/back5"
             android:layout_weight="0.05"
             android:scaleType="center"
             android:textAlignment="center"
@@ -35,16 +36,17 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.05"
-            android:scaleY="0.55"
+            android:scaleY="0.50"
             android:layout_marginEnd="10dp"
-            android:background="@mipmap/search_btn"/>
+            android:background="@mipmap/search3"
+            android:id="@+id/imageView" />
 
         <Button
-            android:id="@+id/goToCreate"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.25"
-            android:text="@string/create_room_btn"/>
+            android:text="@string/create_room_btn"
+            android:id="@+id/goToCreate" />
 
         <Button
             android:layout_width="0dp"
@@ -90,7 +92,8 @@
                     android:layout_margin="1dp"
                     android:textStyle="normal|bold"
                     android:layout_width="0dp"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/columnPlayer"
@@ -104,7 +107,8 @@
 
                     android:textStyle="normal|bold"
                     android:layout_width="0dp"
-                    android:layout_weight="4"/>
+                    android:layout_weight="4"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/columnTeam"
@@ -118,7 +122,8 @@
 
                     android:textStyle="normal|bold"
                     android:layout_width="0dp"
-                    android:layout_weight="2"/>
+                    android:layout_weight="2"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/columnStatus"
@@ -132,7 +137,8 @@
 
                     android:textStyle="normal|bold"
                     android:layout_width="0dp"
-                    android:layout_weight="2"/>
+                    android:layout_weight="2"
+                    android:textSize="16sp" />
 
             </TableRow>
 
@@ -885,8 +891,10 @@
         android:layout_weight="0.1">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <Button
@@ -894,7 +902,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.15"
                 android:text="@string/mode_easy"
-                android:background="#00C9F2"
+                android:background="#523CFC"
                 android:textColor="#FFFFFF"
                 android:textStyle="normal|bold" />
 
@@ -906,14 +914,14 @@
                 android:textStyle="normal|bold"
                 android:textSize="14sp"
                 android:textColor="#FFFFFF"
-                android:background="#FFCB21" />
+                android:background="#F9A143" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.15"
                 android:text="@string/mode_hard"
-                android:background="#FF4921"
+                android:background="#D83A31"
                 android:textStyle="normal|bold"
                 android:textColor="#FFFFFF" />
 
@@ -921,8 +929,8 @@
 
         <ImageView
             android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:background="@mipmap/chat_btn"
+            android:layout_height="50dp"
+            android:background="@mipmap/chat4"
             android:layout_alignParentRight="true" />
 
     </RelativeLayout>

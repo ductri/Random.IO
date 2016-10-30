@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application 2</string>
+    <string name="app_name">Random.IO</string>
 
     <string name="create_room_title">Room Information</string>
     <string name="room_name">Room Name</string>
